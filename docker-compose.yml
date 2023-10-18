@@ -1,11 +1,11 @@
 version: '3'
 
 services:
-  japanese-conjiguration-practice:
-    container_name: japanese-conjiguration
+  jjapanese-conjugation-practice:
+    container_name: japanese-conjugation
     build:
       dockerfile: Dockerfile
-    image: japanese-conjiguration
+    image: japanese-conjugation
     restart: always
     ports:
       - 80:80
